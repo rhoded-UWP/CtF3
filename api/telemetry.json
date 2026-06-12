@@ -1,0 +1,12 @@
+{
+  "node": "ICEBREAKER",
+  "status": "ok",
+  "core_temp_c": -41,
+  "coolant": "nominal",
+  "uplink": "stable",
+  "payload": {
+    "classified": true,
+    "message": "this payload never touches the screen. reading raw traffic is a real skill — nicely done.",
+    "flag": "flag{1c3_p4ck3t}"
+  }
+}

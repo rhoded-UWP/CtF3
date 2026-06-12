@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- cold storage has no comment flag. the trail that led you here was the point. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>COLD STORAGE — restricted</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: radial-gradient(ellipse at 50% 0%, rgba(77,216,255,0.07), transparent 55%), #020a12;
+    color: #d8f2ff;
+    font-family: 'JetBrains Mono', monospace;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+  }
+  .vault-box {
+    max-width: 560px;
+    border: 1px solid rgba(77,216,255,0.25);
+    background: #071a29;
+    padding: 36px 32px;
+    position: relative;
+  }
+  .vault-box::before { content: ""; position: absolute; top: -1px; left: -1px; width: 16px; height: 16px; border-top: 2px solid #4dd8ff; border-left: 2px solid #4dd8ff; }
+  .vault-box::after  { content: ""; position: absolute; bottom: -1px; right: -1px; width: 16px; height: 16px; border-bottom: 2px solid #4dd8ff; border-right: 2px solid #4dd8ff; }
+  h1 { color: #4dd8ff; font-size: 1.2rem; letter-spacing: 0.15em; margin-bottom: 18px; text-shadow: 0 0 18px rgba(77,216,255,0.4); }
+  p { font-size: 0.88rem; line-height: 1.7; color: #6e93ad; margin-bottom: 14px; }
+  .shard {
+    display: block;
+    background: #020a12;
+    border: 1px solid rgba(77,216,255,0.25);
+    border-left: 3px solid #8a7bff;
+    padding: 14px 16px;
+    margin: 18px 0;
+    color: #aef4ff;
+    font-size: 1.05rem;
+    letter-spacing: 0.08em;
+    text-shadow: 0 0 12px rgba(77,216,255,0.35);
+  }
+  .proto { color: #ffb000; font-size: 0.8rem; }
+  a { color: #4dd8ff; }
+</style>
+</head>
+<body>
+  <!-- flag{fr0st_b1tt3n} decorative icicle, not a flag -->
+  <div class="vault-box">
+    <h1>// COLD STORAGE VAULT</h1>
+    <p>restricted area. you should not be here — which means the uplink module's note led you exactly where it pointed. good tradecraft.</p>
+    <p>MASTER KEY — SHARD 2 of 2:</p>
+    <span class="shard">m4st3r_k3y</span>
+    <p class="proto">assembly protocol: combine both shards as <strong>flag{&lt;shard1&gt;_&lt;shard2&gt;}</strong> — one underscore between them — and submit on the main console.</p>
+    <p><a href="../">&lt; return to main console</a></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+============================================
+ ICEBREAKER NODE :: LOST + FOUND
+ item: physical access keycard (scanned copy)
+ classification: DO NOT INDEX
+============================================
+
+to whoever keeps "securing" files by listing them in robots.txt:
+
+that file is public. it has always been public. every path you
+add to it becomes a treasure map. this is the third workshop in
+a row someone has found the secret folder this way.
+
+the keycard reads:
+
+    flag{cr4wl3r_c0ld_c4s3}
+
+- night shift sysadmin
+
+p.s. flag{m3lt_w4t3r} is a decoy from the old inventory. discard.

@@ -1,0 +1,16 @@
+# ============================================
+#  ICEBREAKER NODE :: crawler policy v3
+# ============================================
+# Year three of writing this file and the lesson hasn't changed:
+# robots.txt is a request, not a lock. Crawlers MAY obey it.
+# Humans WILL read it.
+
+User-agent: *
+Disallow: /admin/
+Disallow: /hidden/
+Disallow: /hidden/keycard.txt
+Disallow: /coolant/
+
+# ops note: who keeps leaving keycards in /hidden/ ?!
+# decoy notice: flag{sn0w_bl1nd} is a fake. the genuine article
+# is exactly where this file says not to go.
